@@ -22,14 +22,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::view('/', 'pages.index')->name('index');
+Route::view('/how-it-works', 'pages.how-it-works')->name('how_it_works');
+
+
+
 Route::get('/properties', [PageController::class, 'properties'])->name('properties');
 Route::get('/property/details/{id}', [PageController::class, 'details'])->name('pro.details');
 
-Route::view('/demo', 'pages.demo2');
-Route::view('/about', 'pages.about')->name('about');
-Route::view('/contact', 'pages.contact')->name('contact');
-Route::view('/commercial-real-estate', 'pages.commercial')->name('commercial');
-Route::view('/residential-real-estate', 'pages.residential')->name('residential');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
