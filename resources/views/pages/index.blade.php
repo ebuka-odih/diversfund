@@ -14,7 +14,7 @@
     <div class="home-noexperience">
         <div class="container"><p class="title">From the <span>convenience</span> of your phone</p>
             <p class="description">Whether you’re a current investor or just taking the first steps to building a
-                balanced portfolio, DiversyFund provides the tools and guidance you need to begin investing in private
+                balanced portfolio, {{ env('APP_NAME') }} provides the tools and guidance you need to begin investing in private
                 market assets. We’ve broken down the barriers that used to keep the everyday investor from
                 institutional-quality investments.</p>
             <svg width="23" height="23" viewbox="0 0 23 23" fill="none">
@@ -336,14 +336,14 @@
                            class="lottie-on-scroll"></lottie-player>
         </div>
         <div class="content"><p class="title">Inclusive Access to Exclusive <span>Deals</span></p>
-            <p class="description">At DiversyFund, our real estate growth plan offers access to everyone, from those
+            <p class="description">At {{ env('APP_NAME') }}, our real estate growth plan offers access to everyone, from those
                 just starting out to seasoned investors looking to leverage their portfolios. Value-add strategies and a
                 multifamily asset class provide an inflation-resistant way to help build potential wealth. </p>
             <blockquote><p>Ninety percent of all millionaires become so through owning real estate.</p> <cite>- Andrew
                     Carnegie</cite></blockquote>
             <p class="description">Carnegie was right. In fact, 24 of the 400 billionaires appearing on the 2021 Forbes
                 400 list of richest Americans are real estate investors. They realize the powerful benefits of a
-                diversified portfolio and prudent investing. </p> <a href="about/index.html" class="btn">Learn More</a>
+                diversified portfolio and prudent investing. </p> <a href="{{ route('about') }}" class="btn">Learn More</a>
         </div>
     </div>
     <div class="home-featured">
