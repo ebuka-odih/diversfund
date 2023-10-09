@@ -21,7 +21,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [PageController::class, 'home'])->name('index');
+Route::view('/', 'pages.index')->name('index');
 Route::get('/properties', [PageController::class, 'properties'])->name('properties');
 Route::get('/property/details/{id}', [PageController::class, 'details'])->name('pro.details');
 
