@@ -23,6 +23,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'pages.index')->name('index');
 Route::view('/how-it-works', 'pages.how-it-works')->name('how_it_works');
+Route::view('/offerings', 'pages.offerings')->name('offerings');
+Route::view('/why-real-estate', 'pages.why-real-estate')->name('why_realestate');
+Route::view('/premier-offerings', 'pages.premier-offerings')->name('premier-offerings');
 
 
 

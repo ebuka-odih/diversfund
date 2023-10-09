@@ -4,7 +4,7 @@
     <div class="home-hero container">
         <div class="col content"><p class="title"><span>Real estate</span> investing that’s accessible – for <span>everyone</span>.
             </p>
-            <p class="subtitle">And it’s easy too!</p> <a href="how-it-works/index.html" class="btn">How It Works</a>
+            <p class="subtitle">And it’s easy too!</p> <a href="{{ route('how_it_works') }}" class="btn">How It Works</a>
         </div>
         <div class="col image">
             <lottie-player src="https://lottie.host/98899da5-201f-4c08-b7c9-be071961ea81/2a2tFx119D.json" speed="1"

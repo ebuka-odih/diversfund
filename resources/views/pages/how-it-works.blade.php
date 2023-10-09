@@ -146,8 +146,8 @@
                 exclusive opportunities to further diversify their portfolio and benefit from historically high
                 returns.</p>
             <ul class="btns">
-                <li><a href="../offerings/index.html" class="btn">Browse Offerings</a></li>
-                <li><a href="../why-real-estate/index.html" class="btn outline">Why Real Estate</a></li>
+                <li><a href="{{ route('offerings') }}" class="btn">Browse Offerings</a></li>
+                <li><a href="{{ route('why_realestate') }}" class="btn outline">Why Real Estate</a></li>
             </ul>
         </div>
         <div class="image"><img alt=""
