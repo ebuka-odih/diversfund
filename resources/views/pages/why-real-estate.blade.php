@@ -21,7 +21,7 @@
             <p class="description">Portfolios with an allocation to private real estate offer strategic opportunities
                 for growth while providing a strong hedge against market volatility and inflation. Unlike playing the
                 stock market, investing in real estate lets you better mitigate risk without sacrificing potential
-                returns. And best of all, DiversyFund’s Growth and Single Asset offerings provide a simple, hands-off
+                returns. And best of all, {{ env('APP_NAME') }}’s Growth and Single Asset offerings provide a simple, hands-off
                 approach to investing, so you don’t have to become a landlord just to make your money work better for
                 you.</p></div>
         <div class="image">
@@ -176,7 +176,7 @@
         </div>
     </div>
     <div class="offerings-block container">
-        <div class="section-title large"><p class="title">DiversyFund’s <span>Real Estate</span> Offerings</p>
+        <div class="section-title large"><p class="title">{{ env('APP_NAME') }}’s <span>Real Estate</span> Offerings</p>
             <p class="subtitle">Our two offerings- Growth and Premier- provide you with options, based on your preferred
                 risk level and overall experience with investing. You can select from Growth and Premier offerings, each
                 with its own unique benefits, to find the best fit for diversifying your portfolio and mitigating risk
@@ -189,11 +189,11 @@
             </div>
             <div class="content"><p class="label">Premier Offerings</p>
                 <p class="title">Invest in exclusive single-asset offerings for accredited investors</p>
-                <p>Single-asset offerings at DiversyFund let more <strong>experienced investors</strong> take charge of
+                <p>Single-asset offerings at {{ env('APP_NAME') }} let more <strong>experienced investors</strong> take charge of
                     their real estate portfolios by selecting investment assets based on their location, size, and other
                     distinguishing features. Your money goes to work in a private multifamily real estate asset you’ve
                     personally selected, so <span>you remain in control</span> of your long-term growth plan.</p> <a
-                    href="../premier-offerings/index.html" class="btn">Browse Premier Offerings</a></div>
+                    href="{{ route('premier-offerings') }}" class="btn">Browse Premier Offerings</a></div>
         </div>
         <div class="offerings-group-card">
             <div class="image"><img alt="Growth Offerings"
@@ -203,20 +203,20 @@
             </div>
             <div class="content"><p class="label">Growth Offerings</p>
                 <p class="title">A portfolio of multifamily assets for diversification</p>
-                <p>DiversyFund’s REITs let individual investors receive the benefits of investing in the real estate
+                <p>{{ env('APP_NAME') }}’s REITs let individual investors receive the benefits of investing in the real estate
                     market without taking on the risk and hassles of ownership alone. A curated portfolio of assets
                     works to balance risk, while the easy-to-use app and dashboard let you track your investments in
-                    DiversyFund real estate assets and take control of your financial future.</p> <a
-                    href="../premier-offerings/index.html" class="btn">Browse Growth Offerings</a></div>
+                    {{ env('APP_NAME') }} real estate assets and take control of your financial future.</p> <a
+                    href="{{ route('premier-offerings') }}" class="btn">Browse Growth Offerings</a></div>
         </div>
     </div>
     <div class="home-testimonials container">
         <div class="content"><p class="title">Our Real Estate Investment Strategy</p>
-            <p>Diversyfund value-add offerings and single asset investment opportunities are illiquid during the
+            <p>{{ env('APP_NAME') }} value-add offerings and single asset investment opportunities are illiquid during the
                 5-to-7-year investment horizon, providing a reliable opportunity to diversify and solidify your
                 portfolio. All multifamily real estate assets are researched thoroughly before acquisition, and each
-                step of the growth plan is vertically managed by the Diversyfund Team.</p> <a
-                href="https://portal.diversyfund.com/investor-registration" class="btn outline">Get Started</a></div>
+                step of the growth plan is vertically managed by the {{ env('APP_NAME') }} Team.</p> <a
+                href="{{ route('register') }}" class="btn outline">Get Started</a></div>
         <div class="image"><img alt=""
                                 nitro-lazy-src="https://cdn-fiiij.nitrocdn.com/yWNxOhTOUCABTanWOzXhJAIrPGprxXkC/assets/images/optimized/rev-6b43058/diversyfund.com/wp-content/themes/diversyfund2.0/images/whyrealestate/image_strategy.png"
                                 class="nitro-lazy" decoding="async" nitro-lazy-empty id="MzQ3OjEyNw==-1"
@@ -231,12 +231,11 @@
         </div>
         <div class="content"><p class="title">Historical Returns (RE)</p>
             <p>Historically, real estate has a proven track record and has outperformed the stock market 56% of the
-                time, especially in periods of inflation. REITs – like DiversyFund’s Growth REITs – have an average
+                time, especially in periods of inflation. REITs – like {{ env('APP_NAME') }}’s Growth REITs – have an average
                 annualized return of 11.2%*, making them a viable option for bolstering your portfolio.</p>
-            <p><a href="https://www.reit.com/data-research/reit-indexes/annual-index-values-returns"
-                  style="text-decoration:none;">*Data taken from NAREIT annual index values and returns</a></p> <a
-                href="../blog/growth-reit-i-distribution-announcement/index.html" class="btn outline">Latest
-                Distribution</a></div>
+            <p><a href="#"
+                  style="text-decoration:none;">*Data taken from NAREIT annual index values and returns</a></p>
+        </div>
     </div>
 </div>
 <script nitro-exclude>(function () {
@@ -351,7 +350,7 @@
     <div class="container"><p class="title">Don’t miss out on the latest <span>investment</span> trends!</p>
         <p class="subtitle">Get them in your mailbox every month</p>
         <form
-            action="https://script.google.com/macros/s/AKfycbxIsaEQbi0zM08U4IBrJymC2v8cyuzZIiUC-5C0mB1DdgnEg9tMehjSjSPwgJch9ZM1iw/exec"
+            action="#"
             class="newsletter-form">
             <div class="success-message"><p>Thank you for connecting with us! You’ve taken the first step in your real
                     estate investing journey!</p></div>
