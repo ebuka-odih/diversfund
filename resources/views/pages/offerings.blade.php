@@ -71,7 +71,7 @@
                 <table class="data" cellspacing="0">
                     <tr>
                         <th>Min Investment</th>
-                        <td>$50K</td>
+                        <td>$10K</td>
                     </tr>
                     <tr>
                         <th>Objective</th>
@@ -82,7 +82,7 @@
                         <td>Sand City, CA</td>
                     </tr>
                 </table>
-                <a href="the-independent/index.html" class="btn fullWidth">Overview</a></div>
+                <a href="{{ route('user.projects') }}" class="btn fullWidth">Overview</a></div>
         </div>
         <div class="offering-card"><p class="title">Opportunity Fund I</p>
             <div class="image"><img alt="Opportunity Fund I"
@@ -114,7 +114,7 @@
                         <td>United States</td>
                     </tr>
                 </table>
-                <a href="opportunity-fund-i/index.html" class="btn fullWidth">Overview</a></div>
+                <a href="{{ route('user.projects') }}" class="btn fullWidth">Overview</a></div>
         </div>
         <div class="offering-card"><p class="title">DiversyFund Venture Investment</p>
             <div class="image"><img alt="DiversyFund Venture Investment"
@@ -134,14 +134,14 @@
                 <table class="data" cellspacing="0">
                     <tr>
                         <th>Minimum Investment</th>
-                        <td>$25K</td>
+                        <td>$15K</td>
                     </tr>
                     <tr>
                         <th>Objective</th>
                         <td>Venture Capital</td>
                     </tr>
                 </table>
-                <a href="../lp/venture-investment-regd/index.html" class="btn fullWidth">Overview</a></div>
+                <a href="{{ route('user.projects') }}" class="btn fullWidth">Overview</a></div>
         </div>
     </div>
 </div>

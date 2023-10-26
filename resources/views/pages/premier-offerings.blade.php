@@ -193,7 +193,7 @@
                 <p>With our streamlined investing process, you can invest in Premier Offerings and add single-asset real
                     estate opportunities to your investment strategy to hedge against inflation and diversify your
                     portfolio. For more details on how signing up for our Premier Offerings works.</p> <a
-                    href="https://portal.diversyfund.com/investor-registration" class="btn">Get Started</a></div>
+                    href="{{ route('register') }}" class="btn">Get Started</a></div>
         </div>
     </div>
     <div class="offerings-block container">
@@ -220,7 +220,7 @@
                 <table class="data" cellspacing="0">
                     <tr>
                         <th>Min Investment</th>
-                        <td>$50K</td>
+                        <td>$10K</td>
                     </tr>
                     <tr>
                         <th>Objective</th>
@@ -231,7 +231,7 @@
                         <td>Sand City, CA</td>
                     </tr>
                 </table>
-                <a href="../offerings/the-independent/index.html" class="btn fullWidth">Overview</a></div>
+                <a href="{{ route('user.projects') }}" class="btn fullWidth">Overview</a></div>
         </div>
         <div class="offering-card"><p class="title">Opportunity Fund I</p>
             <div class="image"><img alt="Opportunity Fund I"
@@ -263,7 +263,7 @@
                         <td>United States</td>
                     </tr>
                 </table>
-                <a href="../offerings/opportunity-fund-i/index.html" class="btn fullWidth">Overview</a></div>
+                <a href="{{ route('user.projects') }}" class="btn fullWidth">Overview</a></div>
         </div>
         <div class="offering-card"><p class="title">DiversyFund Venture Investment</p>
             <div class="image"><img alt="DiversyFund Venture Investment"
@@ -283,14 +283,14 @@
                 <table class="data" cellspacing="0">
                     <tr>
                         <th>Minimum Investment</th>
-                        <td>$25K</td>
+                        <td>$15K</td>
                     </tr>
                     <tr>
                         <th>Objective</th>
                         <td>Venture Capital</td>
                     </tr>
                 </table>
-                <a href="../lp/venture-investment-regd/index.html" class="btn fullWidth">Overview</a></div>
+                <a href="{{ route('user.projects') }}" class="btn fullWidth">Overview</a></div>
         </div>
     </div>
 </div>
@@ -406,7 +406,7 @@
     <div class="container"><p class="title">Don’t miss out on the latest <span>investment</span> trends!</p>
         <p class="subtitle">Get them in your mailbox every month</p>
         <form
-            action="https://script.google.com/macros/s/AKfycbxIsaEQbi0zM08U4IBrJymC2v8cyuzZIiUC-5C0mB1DdgnEg9tMehjSjSPwgJch9ZM1iw/exec"
+            action="#"
             class="newsletter-form">
             <div class="success-message"><p>Thank you for connecting with us! You’ve taken the first step in your real
                     estate investing journey!</p></div>

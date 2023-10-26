@@ -145,18 +145,7 @@
                 <li>Set up Auto-Invest to reach your investment goals even faster.</li>
                 <li>Grow your real estate knowledge as you grow your portfolio.</li>
             </ul>
-            <ul class="download-btns">
-                <li><a href="#"><img
-                            nitro-lazy-src="https://cdn-fiiij.nitrocdn.com/yWNxOhTOUCABTanWOzXhJAIrPGprxXkC/assets/images/optimized/rev-6b43058/diversyfund.com/wp-content/themes/diversyfund2.0/images/download_appstore.png"
-                            class="nitro-lazy" decoding="async" nitro-lazy-empty id="MjgxOjE3OA==-1"
-                            src="data:image/svg+xml;nitro-empty-id=MjgxOjE3OA==-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzAwIDg4IiB3aWR0aD0iMzAwIiBoZWlnaHQ9Ijg4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg=="/></a>
-                </li>
-                <li><a href="#"><img
-                            nitro-lazy-src="https://cdn-fiiij.nitrocdn.com/yWNxOhTOUCABTanWOzXhJAIrPGprxXkC/assets/images/optimized/rev-6b43058/diversyfund.com/wp-content/themes/diversyfund2.0/images/download_googleplay.png"
-                            class="nitro-lazy" decoding="async" nitro-lazy-empty id="MjgyOjIwMg==-1"
-                            src="data:image/svg+xml;nitro-empty-id=MjgyOjIwMg==-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzY0IDEwOCIgd2lkdGg9IjM2NCIgaGVpZ2h0PSIxMDgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PC9zdmc+"/></a>
-                </li>
-            </ul>
+
         </div>
     </div>
     <div class="home-banner">
@@ -165,10 +154,9 @@
                                            class="image nitro-lazy" decoding="async" nitro-lazy-empty
                                            id="Mjg5OjEyNA==-1"
                                            src="data:image/svg+xml;nitro-empty-id=Mjg5OjEyNA==-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNDY2IDc5MCIgd2lkdGg9IjQ2NiIgaGVpZ2h0PSI3OTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PC9zdmc+"/>
-            <div class="content"><p class="title">Real Estate Offerings Focused on Multifamily Assets</p>
-                <p class="subtitle">Real estate – specifically institutional-quality multifamily assets – historically
-                    outperforms the S&P 500 and provides a hedge against inflation. Diversifying with private-market
-                    real estate assets protects your portfolio against stock market volatility.</p></div>
+            <div class="content"><p class="title">We are the global leader in commercial real estate services and investments</p>
+                <p class="subtitle">With services, insights and data that span every dimension of the industry,
+                    we create solutions for clients of every size, in every sector and across every geography.</p></div>
         </div>
     </div>
     <div class="home-trust container"><img alt=""
@@ -192,7 +180,7 @@
                 estate investors are adding the power of alternative assets to their portfolios and learning along the
                 way — with content designed to educate and take the mystery out of securing their financial future. </p>
             <ul class="stats">
-                <li><span>12</span> Multifamily assets</li>
+                <li><span>23</span>Assets</li>
                 <li><span>$175 M</span> of current estimated market value*</li>
                 <li><span>1M sq. ft.</span> of rentable square footage</li>
                 <li><span>Across 6 States</span> CA, FL, NC, SC, TX, UT</li>
@@ -708,7 +696,7 @@
             </div>
             <div class="newsletter-banner">
                 <form
-                    action="https://script.google.com/macros/s/AKfycbxIsaEQbi0zM08U4IBrJymC2v8cyuzZIiUC-5C0mB1DdgnEg9tMehjSjSPwgJch9ZM1iw/exec"
+                    action="#"
                     class="newsletter-form">
                     <div class="success-message"><p>Thank you for connecting with us! You’ve taken the first step in
                             your real estate investing journey!</p></div>

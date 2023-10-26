@@ -27,12 +27,11 @@ Route::view('/offerings', 'pages.offerings')->name('offerings');
 Route::view('/why-real-estate', 'pages.why-real-estate')->name('why_realestate');
 Route::view('/premier-offerings', 'pages.premier-offerings')->name('premier-offerings');
 Route::view('/about', 'pages.about')->name('about');
-
+Route::view('/independent', 'pages.independent')->name('independent');
 
 
 Route::get('/properties', [PageController::class, 'properties'])->name('properties');
 Route::get('/property/details/{id}', [PageController::class, 'details'])->name('pro.details');
-
 
 Route::get('/dashboard', function () {
     return view('dashboard');
