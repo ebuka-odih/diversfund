@@ -28,6 +28,7 @@ Route::view('/why-real-estate', 'pages.why-real-estate')->name('why_realestate')
 Route::view('/premier-offerings', 'pages.premier-offerings')->name('premier-offerings');
 Route::view('/about', 'pages.about')->name('about');
 Route::view('/independent', 'pages.independent')->name('independent');
+Route::view('/terms-of-service', 'pages.terms-of-service')->name('terms-of-service');
 
 
 Route::get('/properties', [PageController::class, 'properties'])->name('properties');
