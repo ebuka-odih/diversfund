@@ -35,6 +35,12 @@
              background: #dfdddd;
             opacity: 1;
         }
+        .DZ-theme-btn.DZ-bt-buy-now {
+            visibility: hidden;
+        }
+        .DZ-theme-btn.DZ-bt-support-now {
+            visibility: hidden;
+        }
     </style>
     <style>
         .form-control {
@@ -74,7 +80,7 @@
     ***********************************-->
     <div class="nav-header">
         <a href="{{ route('index') }}" class="brand-logo">
-            <h2 style="font-weight: bolder; color: black" >RESF</h2>
+            <h2 style="font-weight: bolder; color: black" >DVFUND</h2>
         </a>
 
         <div class="nav-control">
