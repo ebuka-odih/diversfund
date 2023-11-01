@@ -18,7 +18,7 @@ class PropertyController extends Controller
 
    public function create()
    {
-
+        return view('admin.property.create');
    }
 
    public function store(Request $request)
