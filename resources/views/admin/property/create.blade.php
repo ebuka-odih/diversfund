@@ -386,7 +386,7 @@
                                               <div class="form-group">
                                                   <label class="form-label mt-2" for="full-name">Address</label>
                                                   <div class="form-control-wrap">
-                                                      <input type="number" class="form-control" name="address" value="{{ old('address') }}" id="full-name">
+                                                      <input type="text" class="form-control" name="address" value="{{ old('address') }}" id="full-name">
                                                   </div>
                                               </div>
                                           </div>
